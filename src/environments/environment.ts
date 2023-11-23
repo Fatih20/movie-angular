@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_KEY: '5d489ea4f2903b4ffe80bb751aa370e6',
+  API_KEY_READ:
+    'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1ZDQ4OWVhNGYyOTAzYjRmZmU4MGJiNzUxYWEzNzBlNiIsInN1YiI6IjY1NWVjM2RhMWQzNTYzMDExYjljNzBjNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Ous2s-HDdewx-rnequA4j-PRa-L1lXMQj0A1Ge7IpB4',
+  IMAGE_URL: 'https://image.tmdb.org/t/p/w300',
+  API_ENDPOINT: 'https://api.themoviedb.org/3',
 };
 
 /*

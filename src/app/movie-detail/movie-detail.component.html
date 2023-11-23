@@ -1,0 +1,10 @@
+<main>
+    <div *ngIf="!loading" class="content-container">
+        <img src="{{ imageUrl }}" />
+        <h2>{{ movie.title }}</h2>
+        <p>{{ movie.overview }}</p>
+    </div>
+    <div *ngIf="loading" class="content-container">
+        <p>Loading...</p>
+    </div>
+</main>

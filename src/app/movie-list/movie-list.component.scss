@@ -1,0 +1,21 @@
+#movie-list {
+    background-color: #1a1a1a;
+    display: flex;
+    padding: 1.25rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    position: relative;
+}
+
+#wishlist-button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position:fixed;
+    left: 2rem;
+    bottom: 2rem;
+    color: white;
+    background-color: var(--red);
+    z-index: 10;
+}

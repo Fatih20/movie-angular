@@ -1,0 +1,14 @@
+<a href="./movies/{{ movie.id }}">
+    <article class="movie-card">
+        <div class="image-container">
+            <div class="image-overlay">
+            </div>
+            <img src="{{ imageUrl }}" />
+        </div>
+        <button class="add-to-wishlist" (click)="handleAddToWishlist($event)">Add to Wishlist</button>
+        <div>
+            <h2 class="movie-title">{{ movie.title }}</h2>
+            <p>{{ movie.release_date.split("-")[0] }}</p>
+        </div>
+    </article>
+</a>

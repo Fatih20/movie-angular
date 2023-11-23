@@ -1,0 +1,63 @@
+
+.movie-part {
+    cursor: pointer;
+    color: #fafafa;
+    max-width: 300px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.movie-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.movie-explanation-container {
+    border-bottom: #fafafa 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 30px;
+}
+
+.movie-explanation {
+    display: flex;
+}
+
+.movie-description-container {
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.movie-description-container h2 {
+    font-size: 60px;
+}
+
+.movie-description-overview {
+    font-size: 19px;
+    line-height: 1.4;
+    margin: 15px 0px;
+}
+
+.movie-description-date {
+    font-size: 18px;
+}
+
+.back-button {
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    margin: 20px auto 0 auto;
+    padding: 10px 15px;
+    transition: all 0.2s;
+}
+
+.back-button:hover{
+    background-color: #4e4e4e;
+    color: #fafafa;
+}
